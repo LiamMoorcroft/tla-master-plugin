@@ -1,0 +1,46 @@
+[
+  {
+    "name": "TlaMasterPlugin",
+    "version": "0.0.0",
+    "class": "TlaMasterPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1.0.0"
+      }
+    ],
+    "src": "http://localhost:8080/plugin-tla-master.js"
+  },
+  {
+    "name": "TlaOutboundCallsPlugin",
+    "version": "0.0.0",
+    "class": "TlaOutboundCallsPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1.0.0"
+      }
+    ],
+    "src": "https://tlafsmarintest.blob.core.windows.net/twilio/plugin-tlaOutboundCalls.v.1.8.js"
+  },
+  {
+    "name": "TlaTargetsPlugin",
+    "version": "0.0.0",
+    "class": "TlaTargetsPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1.0.0"
+      }
+    ],
+    "src": "https://tlafsmarintest.blob.core.windows.net/twilio/plugin-tlaTargetsWidget.v.1.4.js"
+  },
+  {
+    "name": "TlaEnquiryPlugin",
+    "version": "0.0.0",
+    "class": "TlaEnquiryPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1.0.0"
+      }
+    ],
+    "src": "https://tlafsmarintest.blob.core.windows.net/twilio/plugin-enquiry.v1.3.js"
+  }
+]
